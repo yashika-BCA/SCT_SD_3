@@ -17,7 +17,7 @@ A Java Swing-based desktop application that solves Sudoku puzzles using a backtr
 
 ## 📸 Screenshot
 
-*(Insert a screenshot of the app here once available)*
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/297a67df-0187-464f-9f5f-ff4e59785da7" />
 
 ---
 
@@ -25,4 +25,39 @@ A Java Swing-based desktop application that solves Sudoku puzzles using a backtr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/sudoku-solver-gui.git
+   git clone https://github.com/yashika-BCA/SCT_SD_3/blob/main/SudokuSolverGUI.java
+
+2.Compile and run the Java file:
+   ```bash
+   javac SudokuSolverGUI.java
+   java SudokuSolverGUI
+
+3.Using an IDE (like IntelliJ or Eclipse)
+   Create a new Java project.
+   Add a new class named SudokuSolverGUI.
+   Paste the full code into that class.
+   Click Run or Execute from the IDE toolbar.
+
+🧠 How It Works
+The app uses a recursive backtracking algorithm to solve the puzzle:
+It scans the grid for empty cells.
+Tries digits 1–9 in each cell.
+Validates placements based on Sudoku rules.
+Backtracks if a conflict is found.
+Continues until the puzzle is solved or deemed unsolvable.
+
+📦 Technologies Used
+Java 8+
+Java Swing (GUI Framework)
+
+✨ Future Enhancements
+🔍 Conflict highlighting
+📂 Load puzzles from file
+🎮 Puzzle generator with difficulty levels
+🧠 Step-by-step solving animation
+
+📄 License
+This project is open-source and available under the MIT License.
+
+🙌 Author
+Yashika Sorani (Passionate about building visually polished and logically robust GUI applications.)
